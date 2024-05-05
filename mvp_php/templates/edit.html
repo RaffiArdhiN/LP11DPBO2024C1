@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+      
+        <title>To Do List</title>
+      </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">CRUD</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          </ul>
+        </div>
+      </div>
+    </nav>
+ <div class="col-lg-6 m-auto">
+ 
+ <form method="post" action="edit.php">
+ 
+ <br><br><div class="card">
+ 
+  <div class="card-header bg-warning">
+    <h1 class="text-white text-center">  Update Member </h1>
+ </div><br>
+
+ <input type="hidden" name="id" value="IDNYA" class="form-control"> <br>
+
+ <label> NIK: </label>
+ <input type="text" name="nik" class="form-control"> <br>
+
+ <label> NAMA: </label>
+ <input type="text" name="nama" class="form-control"> <br>
+
+ <label> TEMPAT: </label>
+ <input type="text" name="tempat" class="form-control"> <br>
+
+ <label> TANGGAL LAHIR: </label>
+ <input type="text" name="tl" class="form-control"> <br>
+
+ <label> GENDER: </label>
+ <input type="text" name="gender" class="form-control"> <br>
+
+ <label> EMAIL: </label>
+ <input type="text" name="email" class="form-control"> <br>
+
+ <label> TELEPON: </label>
+ <input type="text" name="telp" class="form-control"> <br>
+
+ <button class="btn btn-success" type="submit" name="submit"> Submit </button><br>
+ <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+
+ </div>
+ </form>
+ </div>
+</body>
+</html>
